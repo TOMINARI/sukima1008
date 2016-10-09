@@ -1,0 +1,141 @@
+/*! Sukima */
+/* Colors
+   ========================================================================== */
+.logo {
+  background: #36558f;
+  height: 64px;
+  margin-bottom: 20px;
+}
+.logo h1 {
+  line-height: 0.4;
+}
+
+
+.categories {
+  height: 600px;
+  color: #fff;
+  text-align: center;
+}
+
+.cat_camera {
+  background: #446bb4 url("../images/cat-camera.jpg") no-repeat;
+  background-blend-mode: overlay;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+.cat_camera a {
+  text-decoration: none;
+  color: white;
+}
+.cat_camera a :hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+.cat_camera .box_camera {
+  margin: 50% 30%;
+  background: #36558f;
+}
+.cat_camera .box_camera p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cat_share {
+  background: #fea98c url("../images/cat-share.jpg") no-repeat;
+  background-blend-mode: overlay;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+.cat_share a {
+  text-decoration: none;
+  color: white;
+}
+.cat_share a :hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+.cat_share .box_share {
+  margin: 50% 30%;
+  background: #f2c078;
+}
+.cat_share .box_share p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col_main {
+  padding-bottom: 600px;
+  margin-bottom: -600px;
+}
+
+.col_sub {
+  padding-bottom: 600px;
+  margin-bottom: -600px;
+}
+
+.col_sub {
+  width: 100%;
+}
+
+.main .container {
+  overflow: hidden;
+}
+
+.row.col_share {
+  background: #f2c078;
+  height: 360px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 200px;
+  font-size: 1.2em;
+}
+
+.result {
+  color: #323944;
+  margin-top: 20px;
+}
+
+.result_left {
+  border-right: solid 1px #323944;
+}
+
+.subtext {
+  margin-bottom: 5px;
+}
+
+.ratio {
+  font-weight: bolder;
+  font-size: 300%;
+}
+
+.result_pic img {
+  width: 100%;
+}
+
+.result_text {
+  text-align: left;
+}
+
+#comment_head {
+  background-color: #e0e0e2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.comm_info {
+  color: #e0e0e2;
+  font-size: 0.9em;
+}
+
+#footer {
+  margin-top: 10px;
+}
+
+p.right {
+  text-align: right;
+}
